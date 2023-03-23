@@ -114,7 +114,6 @@ h1 {
 .box-title-head div{
     transition: all 0.2s ease-out;
     width: 380px;
-    font-weight: 500;
     margin-bottom: 50px;
     cursor: crosshair;
     font-size: 14px;
