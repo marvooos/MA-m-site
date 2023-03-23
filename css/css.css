@@ -17,7 +17,7 @@ body {
 
 .header {
     padding-left: 312px;
-    background-image: url(/IMG/HEAD/header-back-img.jpg);
+    background-image: url(../img/head/header-back-img.jpg);
 }
 .head-one-block {
     margin-bottom: 30px;
@@ -273,19 +273,19 @@ h1 {
 
 
 .box-news-backImg1 {
-    background-image: url(/img/news/Rectangle\ 26.svg);
+    background-image: url(../img/news/Rectangle\ 26.svg);
     margin-right: 24px;
 }
 .box-news-backImg2 {
-    background-image: url(/IMG/NEWS/Rectangle\ 26\ \(1\).svg);
+    background-image: url(../img/news/Rectangle\ 26\ \(1\).svg);
     margin-right: 24px;
 }
 .box-news-backImg3 {
-    background-image: url(/IMG/NEWS/Rectangle\ 26\ \(2\).svg);
+    background-image: url(../img/news/Rectangle\ 26\ \(2\).svg);
     margin-right: 24px;
 }
 .box-news-backImg4 {
-    background-image: url(/IMG/NEWS/Rectangle\ 26\ \(3\).svg);
+    background-image: url(../img/news/Rectangle\ 26\ \(3\).svg);
     margin-right: 0px;
 }
 
@@ -370,7 +370,7 @@ h1 {
     margin-top: 5px;
 }
 .box-line { 
-    background-image: url(/IMG/HISTORY/Vector\ 1.svg);
+    background-image: url(../img/history/Vector\ 1.svg);
     width: 606px;
     height: 376.5px;
 }
@@ -541,7 +541,7 @@ margin-bottom: 206px;
     padding-left: 45px;
     padding-right: 193px;
     padding-bottom: 45px;
-    background-image: url(/img/slider/Rectangle\ 32.jpg);
+    background-image: url(../img/slider/Rectangle\ 32.jpg);
 }
 .sliderImg-box a{
     font-weight: 700;
