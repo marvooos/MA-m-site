@@ -210,6 +210,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    cursor: pointer;
     align-items: center;
     background: #133D8D;
     width: 60px;
@@ -254,11 +255,15 @@ h1 {
     margin-top: 12px;
     font-weight: 700;
     font-size: 18px;
+    transition: all 0.3s ease-out;
     line-height: 140%;
     text-align: right;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #133D8D;
+}
+.block-title-header a:hover {
+    text-shadow: 7px 5px 11px black;
 }
 .box-flex-news {
     padding-top: 25px;
@@ -266,8 +271,13 @@ h1 {
     padding-right: 29px;
     padding-bottom: 25px;
     margin-bottom: 160px;
-    width: 253px;
+    width: 252px;
     margin-right: 24px;
+
+    transition: all 0.2s ease-out;
+}
+.box-flex-news:hover {
+    box-shadow: 11px 10px 53px black;
 }
 
 
@@ -324,7 +334,7 @@ h1 {
     font-weight: 400;
     font-size: 13px;
     line-height: 140%;
-    color: #ffffffc5;
+    color: rgba(237, 237, 237, 1);
     width: 140px;
     height: 31px;
     background: #BD0007;
@@ -509,6 +519,7 @@ margin-bottom: 206px;
 
 
 .project {
+    overflow: hidden;
     background: rgba(19, 61, 141, 0.5);
     padding-top: 120px;
     padding-left: 312px;
@@ -524,6 +535,7 @@ margin-bottom: 206px;
     transition: all 0.2s ease-in;
     display: flex;
     position: relative;
+    width: 7057px;
 }
 .slider-line:active {
     transition: all 0.2s ease-in;
@@ -629,14 +641,163 @@ margin-bottom: 206px;
 
 
 
+.sliderTwo-section {
+    display: flex;
+    padding-left: 312px;
+    padding-bottom: 150px;
+    padding-right: 312px;
+    padding-top: 150px;
+}
+.sliderTwo-container {
+    overflow: hidden;
+}
+.sliderTwo {
+    width: 1076px;
+}
+.sliderTwo-line {
+    display: flex;
+    width: 5604px;
+    position: relative;
+    transition: all 0.2s ease-out;
+}
+.sliderTwo-box {
+    display: flex;
+    padding-right: 60px;
+    width: 1076px;
+    padding-top: 60px;
+    padding-bottom: 54px;
+    background: rgba(19, 61, 141, 0.15);
+}
+.sliderTwo-box-right {
+    margin-right: 60px;
+}
+.hashTag {
+    width: 157px;
+    margin-bottom: 40px;
+    padding: 8px 12px 5px;
+    background: #133D8D;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sliderTwo-title {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.sliderTwoImgs {
+    width: 480px;
+    height: 410px;
+
+}
+.sliderTwo-title h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 25px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    
+}
+.prevTwo-btn {
+    margin-right: 50px;
+    
+}
+.sliderTwo-box ul {
+    width: 387px;
+}
+.sliderTwo-box ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+}
+.sliderTwo-box-ul-li-top {
+    margin-top: 20px;
+}
+.square-box {
+    width: 8px;
+    height: 8px;
+    background: #BD0007;
+}
+
+.square {
+    margin-top: 6px;
+    margin-right: 21px;
+}
+.square-box-top-1 {
+    margin-bottom: 90px;
+}
+.square-box-top-3 {
+    margin-top: 71px;
+}
+.square-box-top-4 {
+    margin-top: 49px;
+}
 
 
 
 
-
-
-
-
+.footer {
+    padding-top: 60px;
+    background: #133D8D;
+    padding-left: 312px; padding-right: 312px;
+    padding-bottom: 70px;
+}
+.footerLogo {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.title-footer {
+    display: flex;
+}
+.title-footer ul li h2{
+    font-weight: 700;
+    margin-right: 24px;
+    margin-bottom: 25px;
+    width: 306px;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.link-footer-ul {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.footer-ul-li-top {
+    margin-bottom: 15px;
+}
+.footer-ul-li-top-tel {
+    margin-bottom: 11px;
+}
+.footer-ul-li-top-adress {
+    margin-bottom: 30px;
+}
+.link-footer-ul-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container-rigth-links {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
